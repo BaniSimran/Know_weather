@@ -1,0 +1,81 @@
+*{
+  box-sizing: border-box;  
+  padding: 0;
+  margin: 0;
+ 
+}  
+
+.error__loc {
+  font-size: x-large;
+  color: rgb(6, 6, 8);
+  font-weight: bold;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'montseratt', sans-serif;
+}
+
+.body{
+  min-height: 100vh;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-image: url('./assets/bg2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: 0.4s ease-out;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.cool_bg{
+  min-height: 100vh;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-image: url('./assets/cool-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: 0.4s ease-out;
+}
+
+.warm_bg{
+  min-height: 100vh;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-image: url('./assets/warm_bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: 0.4s ease-out;
+}
+
+.cloud_bg{
+  min-height: 100vh;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-image: url('./assets/cloud_bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: 0.4s ease-out;
+}
+
+.rain_bg{
+  min-height: 100vh;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-image: url('./assets/rain.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: 0.4s ease-out;
+}
